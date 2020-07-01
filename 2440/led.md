@@ -21,7 +21,7 @@ nand启动流程
 * 设置引脚数据 （GPFDAT 0x56000054 8bit）
 
  
-### [汇编](./ASM.md)程序代码
+### [汇编](../ASM.md)程序代码
 * 配置引脚
     ```c
     .text
@@ -44,9 +44,9 @@ nand启动流程
 
 
 ## 编译工具
-[gcc](./gcc.md/#gcc_v)
+[gcc](../gcc.md/#gcc_v)
 
-## [Makefile](./makefile.md/)
+## [Makefile](../makefile.md/)
 makefile 框架
 ```
 ARCH 	:=arm-linux-
