@@ -55,6 +55,20 @@
 ### ADD A,B,C
     A=B+C
 
+# 特殊指令
+### MRS rx,CPSR(SPSR)
+    将CPSR(SPSR)寄存器的值赋给rx
+### MSR CPSR(SPSR),rx
+    将rx的值赋给CPSR(SPSR)寄存器
+
+### BIC RA,RB,#mask
+将RB中，mask为1对应的位清零，存到RA寄存器中
+### .ascii
+    插入字符串，不自动添加结束符
+### .string 
+    插入字符串，自动添加结束符
+### .word 
+    插入一个字
 # C语言与汇编
 
 ## 程序传参
